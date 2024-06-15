@@ -1,0 +1,6 @@
+AddTransient metodu, servislerin yaşam döngüsünü belirler. Transient yaşam döngüsü, her bir istek için yeni bir örnek oluşturulmasını sağlar. 
+Yani her istekte yeni bir Context örneği oluşturulacak.
+------
+DynamicParameters, Dapper kütüphanesinin bir parçası olarak, SQL sorgularını çalıştırmak için kullanılan parametrelerin dinamik olarak oluşturulmasını ve yönetilmesini sağlayan bir sınıftır. Dapper, .NET uygulamalarında veritabanı işlemlerini kolaylaştırmak için kullanılan hafif ve hızlı bir ORM (Object-Relational Mapping) aracıdır.
+-------
+.ExecuteAsync metodu, Dapper kütüphanesinin sağladığı ve .NET Core veya .NET üzerindeki async (asenkron) programlama modelini destekleyen bir metodudur. Bu metodun temel işlevi, veritabanı işlemlerini (örneğin, SQL sorguları veya stored procedure çağrıları) asenkron olarak yürütmektir.
